@@ -1,7 +1,11 @@
-import "./App.css";
+import "./App.scss";
 
-function App() {
-  return <div className="App">Hello</div>;
-}
+const App = () => {
+  return (
+    <div className="app">
+      <img src="./images/logo.svg" alt="splitter logo" />
+    </div>
+  );
+};
 
 export default App;
